@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.weatherApp{
+    background-image: url('snow.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+.title{
+    text-align: center;
+}
+.title h1{
+  font-size: 48px;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title input{
+    height: 35px;
+    width: 400px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    color: white;
+    outline: none;
+    margin: 10px 0px;
+}
+.title button{
+    background-color: rgb(206, 141, 152);
+    color: white;
+    padding: 10px 200px;
+    border-radius: 10px;
+    border: none;
+}
+.wetherDiv{
+    width: 25%;
+
+
+}
+.weatherInfo{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('Snow1.jpg');
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.weatherDivContainer{
+    display: flex;
+    justify-content: center;
+}
+
